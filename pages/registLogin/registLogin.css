@@ -1,0 +1,82 @@
+.body{
+	border-top: solid 1px #DBDBDA;
+	padding: 0 40upx;
+}
+
+/* 头像 */
+.face-wapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 120upx;
+	margin-bottom: 120upx;
+}
+
+.face{
+	width: 140upx;
+	height: 140upx;
+}
+.info-wapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-bottom: solid 1px #DBDBDA;
+	padding-bottom:20upx;
+}
+.words-1b1{
+	color: #808080;
+}
+.input{
+	width: 500upx;
+	margin-left: 40upx;
+}
+.graywords{
+	color: #EAEAEA;
+}
+
+/* 第三方登录 */
+.thierd-line{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.third-wapper{
+	width: 100%;
+	margin-top: 60upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.third-words{
+	color: #A9A9A9;
+	font-size: 13px;
+	
+}
+.single-line{
+	padding: 15upx 20upx;
+	width: 25%;
+	align-items: center;
+}
+.third-icos-wapper{
+	margin-top: 30upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.third-ico{
+	width: 60upx;
+	height: 60upx;
+}
+.third-btn-ico{
+	background-image: url(../../static/wx.png);
+	width: 60upx;
+	height: 60upx;
+	background-color: white;
+	background-size: 60upx 60upx;
+	background-repeat: no-repeat;
+	border: none;
+	padding: 0;
+}
+button::after{
+	border: none;
+}

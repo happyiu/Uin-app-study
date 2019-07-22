@@ -1,0 +1,17 @@
+{
+  "navigationBarBackgroundColor": "#FFD655",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "我的",
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "type": "share"
+      },
+      {
+        "type": "home"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

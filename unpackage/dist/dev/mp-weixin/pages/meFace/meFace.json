@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#000000",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "头像上传",
+  "usingComponents": {
+    "avatar": "/components/yq-avatar/yq-avatar"
+  }
+}

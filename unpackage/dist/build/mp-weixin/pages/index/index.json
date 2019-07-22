@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "hello-comp": "/componets/helloComp",
+    "trailer-stars": "/componets/trailerStars"
+  }
+}

@@ -1,0 +1,42 @@
+.search-block{
+	display: flex;
+	flex-direction: row;
+	padding: 0upx 20upx 20upx 20upx;
+	/* 固定搜索栏 */
+	position: fixed;
+	top: 100;
+	z-index: 20000;
+	background-color: #f8f8f8;
+}
+.search-ico{
+	width: 40upx;
+	height: 40upx;
+}
+.search-text{
+	font-size: 14px;
+	background-color: #eaeaea;
+	height: 60upx;
+	width: 640upx;
+	padding: 0upx 10upx;
+
+}
+.search-ico-wapper{
+	background-color: #eaeaea;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.poster{
+	width: 200upx;
+	height: 330upx;
+}
+.movie-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	padding: 80upx 10upx 0upx 10upx;
+}
+.movie-wapper{
+	padding: 10upx 20upx;
+}

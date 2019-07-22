@@ -1,0 +1,184 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+		    "path" : "pages/me/me",
+		    "style" : {
+				"app-plus":{
+					"titleNView":{
+						"type":"transparent",
+						"buttons":[
+							{"type":"share"},
+							{"type":"home"}
+						]
+					}
+				},
+				"h5":{
+					"titleNView":{
+						"type":"transparent",
+						"buttons":[
+						{"type":"share"},
+						{"type":"home"},
+						{"text":"赞"}
+					]
+					}
+				},
+				"navigationBarBackgroundColor":"#FFD655",
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText":"我的"
+			}
+		},
+		{
+		    "path" : "pages/registLogin/registLogin",
+		    "style" : {
+				"navigationBarTitleText":"登录注册",
+				"app-plus":{
+					"titleNView":{
+						"type":"transparent",
+						"buttons":[
+							{"type":"home"}
+						]
+					}
+				},
+				"h5":{
+					"titleNView":{
+						"type":"transparent",
+						"buttons":[
+						{"type":"home"}
+					]
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/search/search",
+		    "style" : {
+				"navigationBarTitleText":"来搜索鸭"
+				
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				},
+				"h5":{
+					"titleNView":false
+				},
+				"enablePullDownRefresh":true
+			}
+		}
+	    
+        ,{
+            "path" : "pages/movie/movie",
+            "style" : {
+				"navigationBarTitleText":"电影",
+				"app-plus":{
+					"titleNView":{
+						"type":"transparent",
+						"buttons":[
+							{"type":"share"},
+							{"type":"home"},
+							{"type":"forward"}
+						]
+					}
+				},
+				"h5":{
+					"titleNView":{
+						"type":"transparent",
+						"buttons":[
+						{"type":"share"},
+						{"type":"home"},
+						{"type":"forward"}
+					]
+					}
+				}
+				
+			}
+        }
+        ,{
+            "path" : "pages/cover/cover",
+            "style" : {
+				"navigationBarTitleText":"封面"
+			}
+        }
+        
+        ,{
+            "path" : "pages/meInfo/meInfo",
+            "style" : {
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText":"设置",
+				"navigationBarBackgroundColor":"#FFD655"
+			}
+        }
+        ,{
+            "path" : "pages/meFace/meFace",
+            "style" : {
+				"navigationBarBackgroundColor":"#000000",
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText":"头像上传"
+			}
+        }
+        ,{
+            "path" : "pages/meNickname/meNickname",
+            "style" : {
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText":"修改昵称",
+				"navigationBarBackgroundColor":"#FFD655"
+			}
+        }
+        ,{
+            "path" : "pages/mebirthday/mebirthday",
+            "style" : {
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText":"修改生日",
+				"navigationBarBackgroundColor":"#FFD655"
+			}
+        }
+        ,{
+            "path" : "pages/mesex/mesex",
+            "style" : {
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText":"修改性别",
+				"navigationBarBackgroundColor":"#FFD655"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "就叫黄即吧",
+		// "navigationBarBackgroundColor": "#f2f122",
+		"navigationBarBackgroundColor": "#f8f8f8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#000000",		//文字颜色
+		"selectedColor":"red",	//文字选中时的颜色
+		"borderStyle":"black", //tabbar 上边框的颜色，仅支持 black/white
+		"backgroundColor": "#",	//tab 的背景色
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/sy0.png",
+				"selectedIconPath":"static/sy1.png"
+				
+			},
+			{
+				"pagePath":"pages/search/search",
+				"text":"搜索",
+				"iconPath":"static/ss0.png",
+				"selectedIconPath":"static/ss1.png"
+			},
+			{
+				"pagePath":"pages/me/me",
+				"text":"个人中心",
+				"iconPath":"static/my0.png",
+				"selectedIconPath":"static/my1.png"
+				
+			}
+		]
+		
+	}
+}

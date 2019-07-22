@@ -1,0 +1,215 @@
+.carousel{
+	width: 100%;
+	height: 440rpx;
+}
+
+/* 热门 */
+.super-hot{
+	margin-top: 12rpx;
+	padding: 20rpx;
+}
+.hot-title-wappper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.hot-ico{
+width: 35rpx;
+height: 35rpx;
+margin-top: 10rpx;
+}
+.hot-title{
+	font-size: 20px;
+	margin-left: 20rpx;
+	font-weight: bold;
+}
+.hot{
+	width: 100%;
+	white-space: nowrap;
+}
+.sigle-poster{
+	display: inline-block;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+}
+.poster-wapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.poster{
+	width: 200rpx;
+	height: 330rpx;
+}
+.movie-name{
+	width: 200rpx;
+	margin-top: 10rpx;
+	font-size: 14px;
+	font-weight: bold;
+	/* 超出则省略 */
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+.movie-score-wapper{
+	width: 200rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	margin-top: 10rpx;
+}
+.star-ico{
+	width: 20rpx;
+	height: 20rpx;
+}
+.movie-score{
+	font-size: 12px;
+	color: grey;
+	margin-left: 5rpx;
+	margin-top: -7rpx;
+}
+
+/* 热门预告 */
+.hot-movies{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 0rpx 20rpx 20rpx 20rpx;
+}
+.hot-movie-single{
+	width: 330rpx;
+	height: 220rpx;
+	margin-top: 10rpx;
+}
+
+/* 猜你喜欢 */
+.guess-u-like{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.single-like-movie{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding: 30rpx 20rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.like-movie{
+	width: 180rpx;
+	height: 240rpx;
+	-webkit-border-radius: 3%;
+	        border-radius: 3%;
+}
+.movie-desc{
+	width: 340rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin-left: 40rpx;
+}
+.movie-title{
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+.movie-info{
+	color: #808080;
+	font-size: 14px;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+
+/* 点赞css */
+.movie-oper{
+	border-left: dashed 2px #dbdbda;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;	/* 主轴上的居中 */
+	padding-left: 20rpx;
+}
+.pralse-ico{
+	width: 60rpx;
+	height: 60rpx;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+}
+.praise-me{
+	font-size: 14px;
+	font-weight: bold;
+	color: deeppink;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+}
+.animation-opacity{
+	font-weight: bold;
+	opacity: 0;
+}
+

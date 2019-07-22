@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/me",
+    "pages/registLogin/registLogin",
+    "pages/search/search",
+    "pages/movie/movie",
+    "pages/cover/cover",
+    "pages/meInfo/meInfo",
+    "pages/meFace/meFace",
+    "pages/meNickname/meNickname",
+    "pages/mebirthday/mebirthday",
+    "pages/mesex/mesex"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "就叫黄即吧",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "red",
+    "borderStyle": "black",
+    "backgroundColor": "#",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/sy0.png",
+        "selectedIconPath": "static/sy1.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "static/ss0.png",
+        "selectedIconPath": "static/ss1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "个人中心",
+        "iconPath": "static/my0.png",
+        "selectedIconPath": "static/my1.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

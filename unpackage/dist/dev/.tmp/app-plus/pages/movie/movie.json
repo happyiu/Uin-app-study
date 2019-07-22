@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "电影",
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "type": "share"
+      },
+      {
+        "type": "home"
+      },
+      {
+        "type": "forward"
+      }
+    ]
+  },
+  "usingComponents": {
+    "trailer-stars": "/componets/trailerStars"
+  }
+}
